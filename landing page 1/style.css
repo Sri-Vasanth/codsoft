@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  height: auto;
+}
+.head {
+  width: 100%;
+  background-color: #1f2937;
+  justify-content: center;
+
+  height: 70vh;
+}
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8rem;
+
+  margin-bottom: 3rem;
+}
+.logo {
+  width: 50%;
+  margin-top: 1rem;
+}
+.list-item {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  color: white;
+}
+.container {
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8rem;
+}
+.title {
+  font-family: "Open Sans", sans-serif;
+}
+.left-container {
+  width: 80%;
+  height: auto;
+}
+.website {
+  color: white;
+  width: 80%;
+  margin-bottom: 1rem;
+  font-size: 34px;
+  gap: 0.5rem;
+}
+.para-container {
+  width: 80%;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  gap: 0.25rem;
+  color: white;
+}
+.but {
+  width: 20%;
+  height: 5vh;
+  background-color: #3882f6;
+  border-color: #1f2937;
+  color: white;
+  border-radius: 0.5rem;
+  border: 2px solid #1f2937;
+}
+.right-container {
+  width: 100%;
+}
+.right-image {
+  width: 60%;
+  margin-left: 15rem;
+}
+.square {
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+
+  background-color: whitesmoke;
+}
+.heading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  margin-bottom: 3rem;
+}
+.product-container {
+  width: 60%;
+  display: flex;
+  margin-left: 15rem;
+  margin-top: 1rem;
+
+  gap: 3rem;
+}
+.phone {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px black;
+}
+.lorem-container {
+  font-size: 10px;
+}
+
+.phone-para-container {
+  width: 60%;
+  margin-left: 2.5rem;
+}
+
+.quote {
+  padding: 3rem 2rem;
+  background-color: #e5e7eb;
+  height: 40vh;
+}
+.quote-para {
+  width: 55%;
+  margin: auto;
+  font-style: italic;
+
+  font-weight: 400;
+}
+.cite {
+  width: 75%;
+  font-weight: 700;
+  font-style: normal;
+  display: block;
+  text-align: end;
+}
+.final {
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  padding: 3rem 2rem;
+}
+.final-container {
+  width: 80%;
+  height: 14vh;
+  display: flex;
+  background-color: #3882f6;
+  margin-top: 0.5rem;
+  margin-left: 7rem;
+  justify-content: space-around;
+  border-radius: 0.5rem;
+}
+.call-action {
+  margin-top: 1.25rem;
+  color: white;
+}
+.but-2 {
+  width: 12%;
+  height: 5vh;
+  margin-top: 2rem;
+  color: white;
+  background-color: #3882f6;
+  border-color: white;
+  border-radius: 0.5rem;
+  border: 2px solid white;
+}
+.footer-section {
+  background-color: #1f2937;
+}
+.footer-container {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  color: white;
+}
